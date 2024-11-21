@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Template</title>
+    <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="header">
+            <div class="logo"><a href=""><i class="fa-solid fa-house"></i>Logo</a></div>
+            <ul class="navbar">
+                <li><a href=""><i class="fa-solid fa-earth-americas"></i></a></li>
+                <li><a href=""><i class="fa-regular fa-user"></i></a></li>
+                <li><a href=""><i class="fa-regular fa-envelope"></i></a></li>
+                <li><a href=""><i class="fa-regular fa-bell"></i></a></li>
+            </ul>
+            <div class="nav-img">
+                <img src="./images/avatar2.png"  alt="nav-photo">
+            </div>
+        </header>
+        <div class="section">
+            <div class="left-container">
+                <section class="profile">
+                    <h2>My Profile</h2>
+                    <div class="profile-img">
+                        <img src="./images/avatar3.png" alt="">
+                    </div>
+                    <div style="border: 1px solid grey; margin: 20px;"></div>
+                    <ul class="profile-li">
+                        <li><a href=""><i class="fa-solid fa-pencil"></i>Designer, UI</a></li>
+                        <li><a href=""><i class="fa-solid fa-house"></i>London, UK</a></li>
+                        <li><a href=""><i class="fa-solid fa-cake-candles"></i>April 1, 1988</a></li>
+                    </ul>
+                </section>
+                <section class="dp-menu">
+                    <div class="dp-item">
+                        <input type="checkbox" id="group-toggle">
+                        <label for="group-toggle" class="dp-label">My Gropus</label>
+                        <div class="dp-content">
+                            <p>Some text..</p>
+                        </div>
+                    </div>
+                    <div class="dp-item">
+                        <input type="checkbox" id="events-toggle">
+                        <label for="events-toggle" class="dp-label">My Events</label>
+                        <div class="dp-content">
+                            <p>Some other text..</p>
+                        </div>
+                    </div>
+                    <div class="dp-item">
+                        <input type="checkbox" id="photos-toggle">
+                        <label for="photos-toggle" class="dp-label">My photos</label>
+                        <div class="dp-content">
+                            <p>Some other text..</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="interest">
+                    <p>Interest</p>
+                    <div class="tags">
+                        <span style="background-color: #4a738e;">News</span>
+                        <span style="background-color: #5a9a84;">W3Schools</span>
+                        <span style="background-color: #4e6a74;">Labels</span>
+                        <span style="background-color: #678db6;">Games</span>
+                        <span style="background-color: #768ca5;">Friends</span>
+                        <span style="background-color: #9bbcd9;">Food</span>
+                        <span style="background-color: #90a8ba;">Design</span>
+                        <span style="background-color: #c3d1e0;">Art</span>
+                        <span style="background-color: #e0e7ec;">Photos</span>
+                    </div>
+                </section>
+            </div>
+            <div class="mid-container">
+                <section class="post">
+                    <div class="post-container">
+                        <p class="title">Social Media template by w3.css</p>
+                        <div class="post-box">
+                            <input type="text" class="status-input" placeholder="Status: Feeling...">
+                            <button class="post-button">
+                                <i class="fa-solid fa-pencil"></i>Post
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="post-card">
+                    <div class="post-header">
+                        <img src="./images/avatar2.png" alt="user avatar" class="post-avatar">
+                        <div class="post-user">
+                            <p class="post-user-name">John Doe</p>
+                            <p class="post-time">1 min</p>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="post-images">
+                            <img src="./images/lights (2).jpg" alt="post image 1">
+                            <img src="./images/nature.jpg" alt="post image 2">
+                        </div>
+                    </div>
+                    <div class="post-actions">
+                        <button class="post-action-button"><i class="fa-solid fa-thumbs-up"></i>Like</button>
+                        <button class="post-action-button"><i class="fa-solid fa-comment"></i>Comment</button>
+                    </div>
+                </section>
+                <section class="simple-post-card">
+                    <div class="simple-post-header">
+                        <img src="./images/avatar5.png" alt="user avatar" class="simple-post-avatar">
+                        <div class="simple-post-user">
+                            <p class="simple-post-user-name">Jane Doe</p>
+                            <p class="simple-post-time">16 min</p>
+                        </div>
+                    </div>
+                    <hr class="simple-post-divider">
+                    <div class="simple-post-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="simple-post-actions">
+                        <button class="simple-post-action-button"><i class="fa-solid fa-thumbs-up"></i>Like</button>
+                        <button class="simple-post-action-button"><i class="fa-solid fa-comment"></i>Comment</button>
+                    </div>
+                </section>
+                <section class="post-card">
+                    <div class="post-header">
+                        <img src="./images/avatar6.png" alt="user avatar" class="post-avatar">
+                        <div class="post-user">
+                            <p class="post-user-name">Angie Jane</p>
+                            <p class="post-time">32 min</p>
+                        </div>
+                    </div>
+                    <hr class="simple-post-divider">
+                    <div class="post-content">
+                        <p>Have you seen this?</p>
+                        <img class="nature-img" src="./images/nature.jpg" alt="post image 3">
+                        <p class="post-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="post-actions">
+                        <button class="post-action-button"><i class="fa-solid fa-thumbs-up"></i>Like</button>
+                        <button class="post-action-button"><i class="fa-solid fa-comment"></i>Comment</button>
+                    </div>
+                </section>
+            </div>
+            <div class="right-container">
+                <section class="event-card">
+                    <h3 class="event-title">Upcoming Events:</h3>
+                    <img class="event-image" src="./images/forest.jpg" alt="forest image">
+                    <h4 class="event-name">Holiday</h4>
+                    <p class="event-time">Friday 15:00</p>
+                    <button class="event-button">Info</button>
+                </section>
+                <section class="request-card">
+                    <h3 class="request-title">Friend Request</h3>
+                    <img class="request-image" src="./images/avatar6.png" alt="request image">
+                    <h4 class="profile-name">Jane Doe</h4>
+                    <div class="action-buttons">
+                        <button class="accept-button">✔</button>
+                        <button class="decline-button">✖</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer class="footer">
+            <h4 class="footer-top">Footer</h4>
+            <h4 class="footer-bottom">Powered by w3.css</h4>
+        </footer>
+    </div>      
+    <script 
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
+</body>
+</html>
